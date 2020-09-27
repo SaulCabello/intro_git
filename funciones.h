@@ -6,7 +6,10 @@ return a + b;
 }
 
 int resta(int a,int b){
-return a - ;
+    if (b>0){
+        return b;
+    }
+return a - b;
 }
 
 #endif
